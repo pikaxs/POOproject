@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Iniciar sesión</h1>
+    <form action="login.php" method="POST">
+        <div>
+            <label for="user">Nombre de usuario:</label>
+            <input type="text" id="user" name="user" placeholder="Escribe tu nombre de usuario" required>
+        </div>
+        <div>
+            <label for="pass">Contraseña:</label>
+            <input type="password" id="pass" name="pass" placeholder="Escribe tu contraseña" required>
+        </div>
+        <div>
+            <button type="submit">Aceptar</button>
+            <button type="button" onclick="window.close()">Cancelar</button>
+        </div>
+    </form>
+</body>
+</html>

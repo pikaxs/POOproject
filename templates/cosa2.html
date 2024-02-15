@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD con Flask y MySQL</title>
+</head>
+<body>
+    <h1>CRUD con Flask y MySQL</h1>
+
+    <form action="/agregar" method="post">
+        <label for="valor">Valor:</label><br>
+        <input type="text" id="valor" name="valor"><br>
+        <input type="submit" value="Agregar">
+    </form>
+
+    <form action="/actualizar" method="post">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id"><br>
+        <label for="valor">Nuevo Valor:</label><br>
+        <input type="text" id="valor" name="valor"><br>
+        <input type="submit" value="Actualizar">
+    </form>
+
+    <form action="/eliminar" method="post">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id"><br>
+        <input type="submit" value="Eliminar">
+    </form>
+</body>
+</html>
